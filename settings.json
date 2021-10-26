@@ -1,0 +1,83 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.suggestSelection": "first",
+  "python.languageServer": "Pylance",
+  "jupyter.askForKernelRestart": false,
+  "jupyter.interactiveWindowMode": "perFile",
+  "explorer.confirmDragAndDrop": false,
+  "cSpell.enableFiletypes": ["python"],
+  "liveshare.allowGuestTaskControl": true,
+  "liveshare.allowGuestDebugControl": true,
+  "liveshare.languages.allowGuestCommandControl": true,
+  "workbench.colorTheme": "Monokai",
+  "workbench.iconTheme": "vscode-icons",
+  "files.exclude": {
+    "**/__pycache__": true
+  },
+  "search.exclude": {
+    "**/__pycache__": true,
+    "**/.venv": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "vim.useSystemClipboard": true,
+  "zenMode.hideTabs": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "python.pythonPath": "/usr/local/bin/python3",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": ["Splitted", "before", "scrollable"],
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "line",
+  "editor.insertSpaces": false,
+  "editor.lineNumbers": "on",
+  "editor.wordWrap": "off",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["--line-length=79"],
+  "python.sortImports.args": [
+    "--profile=black",
+    "--line-length=79",
+    "--src=${workspaceFolder}",
+    "--force-alphabetical-sort-within-sections"
+  ],
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.rulers": [79],
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll": true
+    }
+  },
+
+  "cSpell.language": ",es",
+  "python.terminal.activateEnvironment": false,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.lineHeight": 1.3,
+  "workbench.sideBar.location": "right",
+  "cSpell.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "python.linting.mypyEnabled": true,
+  "window.zoomLevel": 1
+}
